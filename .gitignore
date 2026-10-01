@@ -1,0 +1,29 @@
+# Compiled C/C++ outputs
+*.o
+*.out
+*.exe
+
+src/sequential_ev
+src/mpi_ev
+src/hybrid_ev
+src/partitioned_hybrid_ev
+
+# Large generated datasets
+data/ev_100k.csv
+data/ev_1m.csv
+data/ev_5m.csv
+data/ev_20m.csv
+
+# Submission / working documents
+*.docx
+*.mp4
+*.png
+
+# Keep repo focused on source code
+SIT315-Task M4.T1D.pdf
+M4T1D_v2.pdf
+
+# Editor / OS files
+.vscode/
+.DS_Store
+Thumbs.db
